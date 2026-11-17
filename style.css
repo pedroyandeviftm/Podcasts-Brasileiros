@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&family=Bebas+Neue&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(26, 26, 26, 0.719);
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-family: "BBH Bogle", sans-serif;
+    letter-spacing: 10%;
+    margin-left: 2%;
+}
+
+header ul {
+    display: flex;
+    gap: 10%;
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+#conteudo {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#inicio h2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#inicio p {
+    padding-top: 5%;
+    margin-left: 2%;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgba(0, 0, 0, 0.555);
+    width: 100%;
+    text-align: justify;
+    font-size: 40px;
+}

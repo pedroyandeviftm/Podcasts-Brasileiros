@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasts Brasileiros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Podcasts Brasileiros</h1>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#podcasts">Podcasts</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section id="inicio">
+            <h2>Conheça alguns podcasts brasileiros</h2>
+            <p>Os podcasts são programas em áudio que podem ser ouvidos pela internet. Existem podcasts sobre vários assuntos, como notícias, humor, esportes, filmes e música.</p>
+            <p>Nesta página estão alguns exemplos de podcasts conhecidos no Brasil.</p>
+        </section>
+
+        <section id="podcasts">
+            <h2>Podcasts em destaque</h2>
+
+            <article>
+                <h3>Mano a Mano</h3>
+                <figure>
+                    <img src="imagens/mano-a-mano.svg" alt="Ilustração de dois microfones representando uma conversa" width="480" height="300">
+                    <figcaption>Mano a Mano - entrevistas e conversas.</figcaption>
+                </figure>
+                <p>O Mano a Mano é um podcast de entrevistas que recebe pessoas de diferentes áreas para conversar sobre suas histórias e opiniões.</p>
+                <p><a href="https://open.spotify.com/search/Mano%20a%20Mano">Ouvir ou procurar o podcast</a></p>
+            </article>
+
+            <article>
+                <h3>NerdCast</h3>
+                <figure>
+                    <img src="imagens/nerdcast.svg" alt="Ilustração de fones de ouvido" width="480" height="300">
+                    <figcaption>NerdCast - cultura pop e entretenimento.</figcaption>
+                </figure>
+                <p>O NerdCast faz parte do site Jovem Nerd e fala sobre assuntos como filmes, séries, tecnologia, história e outros temas.</p>
+                <p><a href="https://jovemnerd.com.br/">Acessar Jovem Nerd</a></p>
+            </article>
+
+            <article>
+                <h3>Café da Manhã</h3>
+                <figure>
+                    <img src="imagens/cafe-da-manha.svg" alt="Ilustração de uma xícara de café e um jornal" width="480" height="300">
+                    <figcaption>Café da Manhã - notícias e atualidades.</figcaption>
+                </figure>
+                <p>O Café da Manhã é um podcast jornalístico que apresenta notícias e explica assuntos importantes do Brasil e do mundo.</p>
+                <p><a href="https://www1.folha.uol.com.br/podcasts/">Ver podcasts da Folha</a></p>
+            </article>
+        </section>
+
+        <section id="catalogo">
+            <h2>Comparação dos podcasts</h2>
+            <table>
+                <caption>Informações sobre os podcasts apresentados</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Podcast</th>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Assunto</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Mano a Mano</th>
+                        <td>Entrevistas</td>
+                        <td>Cultura e sociedade</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">NerdCast</th>
+                        <td>Entretenimento</td>
+                        <td>Filmes, tecnologia e história</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Café da Manhã</th>
+                        <td>Jornalismo</td>
+                        <td>Notícias</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <aside>
+            <h2>Onde ouvir podcasts?</h2>
+            <p>Algumas plataformas onde é possível encontrar podcasts:</p>
+            <ul>
+                <li><a href="https://open.spotify.com/">Spotify</a></li>
+                <li><a href="https://podcasts.apple.com/br/">Apple Podcasts</a></li>
+                <li><a href="https://www.deezer.com/br/">Deezer</a></li>
+            </ul>
+        </aside>
+
+        <section id="sobre">
+            <h2>Sobre o site</h2>
+            <p>Este site foi feito para apresentar alguns podcasts brasileiros e mostrar um pouco da variedade de assuntos que existem nesse formato.</p>
+            <p>Última atualização: <time datetime="2026-11-17">17/11/2026</time>.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Preencha o formulário para indicar um podcast.</p>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="sugestao">Podcast indicado:</label>
+                    <input type="text" id="sugestao" name="sugestao" required>
+
+                    <label for="mensagem">Comentário:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+            <p><small>Formulário apenas demonstrativo, sem envio de informações.</small></p>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            Trabalho acadêmico - Linguagem de Script para Web<br>
+            Instituto Federal do Triângulo Mineiro - Campus Uberaba Parque Tecnológico
+        </address>
+        <p><small>&copy; 2026 - Podcasts Brasileiros</small></p>
+    </footer>
+</body>
+</html>
