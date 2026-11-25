@@ -1,0 +1,42 @@
+
+# SEO - Flow Podcast
+
+## Palavras-chave
+
+### Página inicial
+- Home
+- Podcast brasileiro
+
+### Página do Flow Podcast
+- Episódios Flow Podcast
+- Entrevistas Flow
+- Convidados Flow Podcast
+
+## Decisões tomadas
+
+1. Foram criados títulos e meta descriptions exclusivos.
+2. Foram adicionadas URLs canonical.
+3. Implementado Open Graph completo.
+4. Criada imagem de compartilhamento 1200x630.
+5. Adicionado favicon SVG.
+6. Implementados dados estruturados JSON-LD.
+7. Criados robots.txt e sitemap.xml.
+8. Criados links internos entre as duas páginas.
+9. Imagens no formato WebP com atributos alt, width e height.
+10. Implementado loading="lazy" nas imagens fora da primeira tela.
+11. CSS responsivo para dispositivos móveis.
+12. Melhorias de acessibilidade com navegação semântica e foco visível.
+
+## Notas Lighthouse
+
+| Métrica | Antes | Depois |
+|---|---|---|
+| SEO | Pendente | Pendente |
+| Acessibilidade | Pendente | Pendente |
+
+## Validação
+
+- Schema.org Validator: pendente de validação.
+- Lighthouse Mobile: pendente de execução.
+- Sitemap: pendente de publicação.
+- Robots.txt: pendente de publicação.
